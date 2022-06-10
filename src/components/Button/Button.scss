@@ -1,0 +1,44 @@
+@use "../../assets/sass/variables" as *;
+
+.Button-tile{
+    .Button-tile__heading{
+        font-size: larger;
+    }
+}
+
+.Button-tile__display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    border: 20px groove white ;
+    font-size: 70px;
+    padding: 2px;
+
+    
+}
+
+.Button-tile__icon__plusOne{
+    background-color: orangered;
+    margin: 2px;
+    border: 2px;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.Button-tile__icon__plusOne:hover {
+    color: white;
+}
+
+.Button-tile__icon__minusOne{
+    background-color: darkblue;
+    margin: 2px;
+    border: 2px;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.Button-tile__icon__minusOne{
+    color:white; 
+}

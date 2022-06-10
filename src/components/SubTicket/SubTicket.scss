@@ -1,0 +1,44 @@
+@use "../../assets/sass/variables" as *;
+
+.subTicket {
+   border: 2px solid red;
+   display: block;
+   font-size: 18px;
+   font-weight: bold;
+   height: 80px;
+   line-height: 80px;
+   padding: 2px;
+   text-align: center;}
+
+.subTicket-button {
+    color: white;
+
+}
+
+.subTicket-tile {
+    color:beige;
+    text-align: center;
+    
+}
+
+
+
+   @media screen and (min-width: 501px) {
+    .SubTicket {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 40px;
+    }}
+
+
+* body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-style: italic;
+    margin: 20px;
+    background-image: linear-gradient(rgb(225, 118, 118), rgb(98, 11, 11));
+
+
+
+}

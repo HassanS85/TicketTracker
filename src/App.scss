@@ -1,0 +1,20 @@
+@use "./assets/sass/variables" as *;
+
+.app {
+    padding: 20px;
+    margin: 20px;
+
+
+}
+
+.app__header{
+    text-align: center;
+} 
+
+.app__header_subheader{
+    color: black;
+}
+
+.ticket-container__section{
+    color: red;
+}

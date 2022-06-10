@@ -1,0 +1,22 @@
+@use "../../assets/sass/variables" as *;
+
+.ticket-container {
+    //display purposes
+    display: grid;
+    gap: 25px 125px;
+    grid-template-columns: repeat(3,1fr);
+    margin: 2rem;
+    justify-content: center;
+    font-size: large;
+}
+
+@media screen and (min-width: 501px) {
+    .ticket-container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+
